@@ -58,7 +58,7 @@ body{
 /* second section styles stars from here */
 .main-section-container{
     width: 946px;
-    height: 1235px;
+    height: 970px;
     border: 20px solid whitesmoke;
     margin: 0 auto;
     margin-top: 120px;
@@ -121,7 +121,7 @@ body{
 }
 .layer1-rightside-content{
     width: 50%;
-    height: 240px;    
+    height: 240px;
 }
 .layer1-img{
     width: 259px;
@@ -129,5 +129,82 @@ body{
 }
 
 /* layer-2 styles starts from here */
+
+.layer2-container{
+    width: 907px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 25px solid whitesmoke; 
+}
+.layer2-leftside-content{
+    width: 50%;
+    height: 240px;
+}
+.layer2-img{
+    width: 259px;
+    height: 217px;
+}
+.layer2-rightside-content{
+    width: 50%;
+    height: 240px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 0;
+}
+.layer2-rightside-content-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.layer2-rightside-content-description{
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    margin-top: 15px;
+}
+
+/* layer-3 styles starts from here */
+.layer3-container{
+    width: 907px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 25px solid whitesmoke; 
+}
+.layer3-leftside-content{
+    width: 50%;
+    height: 240px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 0;
+}
+.layer3-leftside-content-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.layer3-leftside-content-description{
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    margin-top: 15px;
+}
+.layer3-rightside-content{
+    width: 50%;
+    height: 240px;
+}
+.layer3-img{
+    width: 259px;
+    height: 217px;
+}
+
+
 
 
