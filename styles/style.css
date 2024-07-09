@@ -81,6 +81,9 @@ body{
     opacity: 0.7;
     text-align: center;
 }
+/* second section styles ends here */
+
+/* layer-1 styles starts from here */
 .layer1-container{
     width: 907px;
     height: 240px;
@@ -127,6 +130,7 @@ body{
     width: 259px;
     height: 217px;
 }
+/* layer-1 styles ends here */
 
 /* layer-2 styles starts from here */
 
@@ -166,6 +170,7 @@ body{
     color: rgb(13, 19, 33);
     margin-top: 15px;
 }
+/* layer-2 styles ends here */
 
 /* layer-3 styles starts from here */
 .layer3-container{
@@ -204,6 +209,37 @@ body{
     width: 259px;
     height: 217px;
 }
+/* layer-3 styles ends here */
+
+/* third section starts from here */
+.third-section-container{
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.third-section-content{
+    padding: 20px;
+}
+.third-section-content-title{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.third-section-content-description{
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    margin-top: 15px;
+    text-align: center;
+}
+/* third section ends here */
 
 
 
