@@ -285,6 +285,9 @@ body{
 .color-3{
     background-color: rgba(246, 246, 104, 0.332);
 }
+.link{
+    color: black;
+}
 
 
 /* skills section ends here */
